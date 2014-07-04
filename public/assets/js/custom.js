@@ -161,7 +161,7 @@ $(document).ready(function(){
 	});
 	
 	/*Back Page Top*/
-	$('.back_top').tipsy({fallback: "Back Top", gravity: 's', fade: true, offset: -18 }).click(function(){$('html, body').animate({scrollTop : 0},500);});
+	$('.back_top').tipsy({fallback: "Retourner en haut", gravity: 's', fade: true, offset: -18 }).click(function(){$('html, body').animate({scrollTop : 0},500);});
 	
 	/*Call Tipsy Tooltip*/
 	$('a.tooltip').tipsy({gravity: 'w', live: true, fade: true });

@@ -1,5 +1,17 @@
 HubsFrontOffice::Application.routes.draw do
-  root 'welcome#index'
+  
+  get '/:locale' => 'welcome#index', as: :home
+  
+  root 'welcome#index'   
+  
+  scope "/:locale" do
+    get "/paymoney-lafrique-a-son-hub-monetique" => "welcome#intro_text", as: :home_intro_text
+    get "/fonctionnalites-payment-gateway" => "welcome#functionalities_payment_gateway", as: :functionalities_payment_gateway
+    get "/fonctionnalites-compenses-automatisees" => "welcome#functionalities_compenses_automatisees", as: :functionalities_compenses_automatisees
+    get "/fonctionnalites-moyens-de-paiement" => "welcome#functionalities_moyens_de_paiement", as: :functionalities_moyens_de_paiement
+    get "/fonctionnalites-disponibilite-24-7" => "welcome#functionalities_disponibilite", as: :functionalities_disponibilite
+    get "/nous-contacter" => "welcome#nous_contacter", as: :contact_us
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

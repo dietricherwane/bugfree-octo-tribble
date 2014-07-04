@@ -1,0 +1,48 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+fr:
+  
+  accueil_fonctionnalites_titre: "Fonctionnalités"
+  
+  fonctionnalite1_titre1: "PAYMENT"
+  
+  fonctionnalite1_titre2: "GATEWAY"
+  
+  fonctionnalite1_contenu: "Le Payment Gateway PayMoney est une plate-forme de traitement de paiement flexible à l’échelle de toute entreprise qui permet d’acheminer les paiements commerciaux entre acheteurs, fournisseurs et leurs institutions financières."
+  
+  fonctionnalite2_titre1: "COMPENSES"
+  
+  fonctionnalite2_titre2: "AUTOMATISEES"
+  
+  fonctionnalite2_contenu: "Le plus complexe dans la mise en place d’un HUB Monétique reste la répartition des flux financiers. Chaque jour un fichier de compense basé sur la répartition des entrées financières est édité par notre système et transféré à la banque de compense."
+  
+  fonctionnalite3_titre1: "MOYENS DE"
+  
+  fonctionnalite3_titre2: "PAIEMENT"
+  
+  fonctionnalite3_contenu: "Etant convaincus du fait que si vos clients avaient la possibilité de choisir leurs moyens de paiement, cela augmenterait vos ventes et vos revenus, notre système offre en plus de sa flexibilité, une connectivité avec la plupart des moyens de paiement existant."
+  
+  fonctionnalite4_titre1: "DISPONIBILITE"
+  
+  fonctionnalite4_titre2: "24/7"
+  
+  fonctionnalite4_contenu: "La passerelle de paiement PayMoney est disponible 24/7 pour le traitement des transactions. Cela offre ainsi aux e-commerces l’avantage de réaliser des ventes à tout moment. Que les propriétaires ou vendeurs soient présents physiquement ou pas."

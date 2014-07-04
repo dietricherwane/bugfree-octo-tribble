@@ -729,7 +729,7 @@ ol.katakana li{
 .social_colored{
 	width: 16px;
 	height: 16px;
-	margin: 4px;
+	margin-right: 4px;
 	background: url('../images/icons/social.png') no-repeat;
 	display: inline-block;
 	cursor: pointer;
@@ -748,8 +748,8 @@ ol.katakana li{
 .social_colored.skype:hover{ background-position: -250px bottom;}
 .social_colored.facebook{ background-position: -300px 0;}
 .social_colored.facebook:hover{ background-position: -300px bottom;}
-.social_colored.myspace{ background-position: -350px 0;}
-.social_colored.myspace:hover{ background-position: -350px bottom;}
+.social_colored.google{ background-position: -350px 0;}
+.social_colored.google:hover{ background-position: -350px bottom;}
 .social_colored.vimeo{ background-position: -400px 0;}
 .social_colored.vimeo:hover{ background-position: -400px bottom;}
 .social_colored.tumblr{ background-position: -450px 0;}

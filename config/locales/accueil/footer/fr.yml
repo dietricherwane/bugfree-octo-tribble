@@ -1,0 +1,45 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+fr:
+
+  home_footer_titre1_1: "A propos"
+  
+  home_footer_titre1_2: "de nous"
+  
+  home_footer_titre1_contenu: "NGSER est spécialisé dans la fourniture de solutions et services à forte valeur ajoutée dans les domaines des Télécoms et de la Monétique."
+  
+  home_footer_titre2_1: "Nos"
+  
+  home_footer_titre2_2: "contacts"
+  
+  home_footer_titre2_contenu: "<b>Adresse:</b><br>Abidjan Plateau ; Avenue Delafosse, Immeuble MATCA, 4ème étage <br>Côte d’Ivoire<br><b>Telephone:</b><br>+225 20 22 12 53<br><b>Fax:</b><br>+225"
+  
+  home_footer_titre3_1: "Plan"
+  
+  home_footer_titre3_2: "du site"
+  
+  home_footer_titre3_contenu: "<b>Accueil</b><p></p><b>Nos moyens de paiement</b><p></p><b>Banques partenaires</b><p></p><b>Nous contacter</b>"
+  
+  home_footer_titre4_1: "Réseaux"
+  
+  home_footer_titre4_2: "sociaux"
+

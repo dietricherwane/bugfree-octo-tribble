@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from dreamlife.designforlifeden.com/contact.html by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 13 May 2014 14:31:24 GMT -->
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<meta name="author" content="DesignForLife" />
+<meta name="description" content="A Multi Purpose Responsive Template - Created by DesignForLife" />
+<title>DreamLife Responsive Multi-Purpose Template</title>
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+<!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" href="assets/css/ie8.css" />
+<![endif]-->
+</head>
+<body>
+<!-- container full -->
+<div class="container_full">
+	<!-- header -->
+	<div id="header_wrapper" class="clearfix withSlider">
+	<!-- menu -->
+	<div id="header">
+		<!-- logo -->
+		<div id="logo"><a href="index-2.html"><img src="/assets/images/logo.png" alt="logo" /></a></div>
+		<!-- logo end -->
+		<!-- main menu -->
+		<ul id="mainmenu">
+		  <li><%= link_to "Accueil", home_path, :class => @home_active %></li>
+	    <li><%= link_to "Nos moyens de paiement", "#", :class => @moyens_de_paiement_active %></li>		    
+	    <li><%= link_to "Banques partenaires", "#", :class => @banques_partenaires_active %></li>
+	    <li><%= link_to "Nous contacter", contact_us_path, :class => @nous_contacter_active %></li>   
+		</ul>
+		<!-- main menu end -->
+	</div>
+	<!-- menu end -->
+	<!-- google map -->
+	<div id="map_canvas"></div>
+	<!-- google map end -->
+	</div>
+	<!-- header end -->
+	<div class="clearfix"></div>
+	<!-- header text -->
+	<div class="header_text">
+		<div class="container_12">
+			<div class="grid_12">
+				<h1>Contacts</h1>
+			</div>
+		</div>
+	</div>
+	<!-- header text end -->
+	<!-- container 12 -->
+	<div class="container_12">
+		<!-- container with sidebar -->
+		<div class="content right grid_9">
+			<div class="divider_page"><h4>Contactez nous!</h4></div>
+			<p></p>
+			<div class="contact_form">
+				<form action="http://dreamlife.designforlifeden.com/contact.html" method="post" name="messageform">
+					<div class="grid_3 alpha">
+						<input name="namesurname" type="text" value="Nom:" class="input-text" />
+					</div>
+					<div class="grid_3 lambda">
+						<input name="email" type="text" value="E-Mail:" class="input-text" />
+					</div>
+					<div class="grid_3 omega">
+						<input name="subject" type="text" value="Sujet:" class="input-text" />
+					</div>
+					<div class="grid_9 alpha omega">
+						<textarea name="message" class="text-area">Message:</textarea>
+						<div class="alert-contact"></div>
+						<span class="send-message sc_button medium">Envoyer un message</span>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- container with sidebar end -->
+		<!-- sidebar left -->
+		<div class="sidebar left grid_3">
+			<div class="divider_page"><h4>Localisation</h4></div>
+			<p><%=(t :home_footer_titre2_contenu).html_safe %></p>
+		</div>
+	</div>
+	<!-- container 12 end -->
+	<!-- footer -->
+	<div id="footer">
+		<div class="back_top tooltip_s" title="Retourner en haut"></div>
+		<!-- footer container -->
+		<div class="container_12 footer_content">
+			<div class="grid_3">
+				<h3><span class="first-word"><%=t :home_footer_titre1_1 %></span> <%=t :home_footer_titre1_2 %></h3>
+				<p><%=t :home_footer_titre1_contenu %></p>				
+			</div>
+			<div class="grid_3">
+				<h3><span class="first-word"><%=t :home_footer_titre2_1 %> </span><%=t :home_footer_titre2_2 %></h3>
+				<p><%= (t :home_footer_titre2_contenu).html_safe %></p>
+			</div>
+			<div class="grid_3">
+				<h3><span class="first-word"><%=t :home_footer_titre3_1 %></span> <%=t :home_footer_titre3_2 %></h3>
+				<%= (t :home_footer_titre3_contenu).html_safe %>
+			</div>
+			
+			<div class="grid_3">
+				<h3><span class="first-word"><%=t :home_footer_titre4_1 %></span> <%=t :home_footer_titre4_2 %></h3>
+				<div class="float_left socialicons">
+					<a href="https://www.facebook.com/PayMoney.net" target="_blank" class="social_colored facebook" title="Facebook"></a><b>Facebook</b>
+					<p></p>
+					<a href="https://twitter.com/AfricaPayMoney" target="_blank" class="social_colored twitter" title="Twitter"></a><b>Twitter</b>
+					<p></p>
+					<a href="http://www.linkedin.com/company/paymoney" target="_blank" class="social_colored linkedin" title="Linkedin"></a><b>LinkedIn</b>
+					<p></p>
+					<a href="https://plus.google.com/107940201879767423047/posts" target="_blank" class="social_colored google" title="Google+"></a><b>Google+</b>
+				</div>
+			</div>
+		</div>
+		<!-- footer container end -->
+		<div class="clearfix"></div>
+		<!-- footer bottom -->
+		<div class="footer_bottom">
+			<div class="container_12">
+				<div class="grid_6">
+					<div class="footer_text">Copyright  2014 &copy;</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer bottom end -->
+	</div>
+	<!-- footer end -->
+</div>
+<!-- container full end -->
+<script src="/assets/js/jquery-1.9.0.min.js" type="text/javascript"></script>
+<script src="/assets/js/jquery.components.js" type="text/javascript"></script>
+<script src="/assets/js/custom.js" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+<script type="text/javascript">
+function initialize() {
+  var myLatlng = new google.maps.LatLng(40.714353,-74.005973);
+  var mapOptions = {
+    zoom: 12,
+    center: myLatlng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    mapTypeControl: false,
+    scrollwheel: false,
+    scaleControl: false,
+    streetViewControl: false,
+    draggable: false,
+    panControl: true,
+    panControlOptions: {
+        position: google.maps.ControlPosition.BOTTOM_CENTER
+    },
+    zoomControl: true,
+    zoomControlOptions: {
+        style: google.maps.ZoomControlStyle.LARGE,
+        position: google.maps.ControlPosition.LEFT_CENTER
+    }
+  }
+  var map = new google.maps.Map(document.getElementById("map_canvas"),
+      mapOptions);
+      
+  var marker = new google.maps.Marker({
+    position: myLatlng,
+    title:"Hello World!"
+});
+
+// To add the marker to the map, call setMap();
+marker.setMap(map);
+}
+initialize();
+</script>
+</body>
+
+<!-- Mirrored from dreamlife.designforlifeden.com/contact.html by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 13 May 2014 14:31:24 GMT -->
+</html>

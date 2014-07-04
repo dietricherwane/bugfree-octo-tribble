@@ -1,0 +1,39 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+fr:
+  hello: "Hello world"
+  
+  home_intro_title: "PayMoney ! L’Afrique a son HUB Monétique…"
+  
+  home_intro_text_p1: "En cette ère d'informatique en nuage, de tablettes à écran tactile et de médias sociaux révolutionnaires, même la simple exécution d'un paiement fait déjà l'objet d'une transformation radicale. Le changement s'est opéré de manière plus rapide et plus profonde que plusieurs ne l'avaient imaginé. De plus en plus, les Africains prennent leur téléphone ou leur carte de crédit plutôt que leur portefeuille pour s’acquitter de leurs factures, acheter des produits et services, acheter un journal et même transférer des fonds à un ami ou à un membre de leur famille."
+  
+  home_intro_text_p2: "PayMoney résume en son sein un système sécurisé de paiement en ligne et une infrastructure complète de traitement et gestion des compenses et de règlement qui sait correspondre aux attentes les plus minimes des utilisateurs. PayMoney  vient combler les besoins en constante évolution des Africains et rend plus accessible les services proposés par les e-commerces en mettant en avant un système conçu dans une optique d'innovation et de parfaite interopérabilité."
+  
+  home_intro_text_p3: "Désormais grâce à PayMoney, vous permettez à vos clients de payer sur votre site internet directement en ligne sans restriction en utilisant leurs moyens de paiement de choix."
+  
+  home_intro_text_p4: "PayMoney est un Payment Gateway développé par NGSER (Nouvelle Génération de Services)."
+  
+  home_intro_text_comment_se_connecter: "Comment se connecter à PayMoney?"
+  
+  home_intro_text_avantages_de_paymoney: "Les Avantages de PayMoney!"
+  
+  home_intro_text_more: "Lire la suite..."

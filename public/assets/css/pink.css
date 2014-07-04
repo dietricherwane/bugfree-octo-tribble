@@ -20,8 +20,8 @@ ul#mainmenu > li a.active	{
 ul#mainmenu > li a																		{color: #fff;}
 ul#mainmenu > li a:hover,ul#mainmenu > li a.hover							{background: #444;}
 #mainmenu .home_icon .circle_effect,#mainmenu .contact_icon			{background-color: #fefefe;}
-#mainmenu .home_icon a,#mainmenu .contact_icon a						{background: url('../images/icons/menu_icons.png') no-repeat #505050;}
-#mainmenu .home_icon a:hover,#mainmenu .contact_icon a:hover		{background: url('../images/icons/menu_icons.png') no-repeat #c9577d;}
+#mainmenu .home_icon a,#mainmenu .contact_icon a						{background: url('/assets/images/icons/menu_icons.png') no-repeat #505050;}
+#mainmenu .home_icon a:hover,#mainmenu .contact_icon a:hover		{background: url('/assets/images/icons/menu_icons.png') no-repeat #c9577d;}
 #mainmenu .contact_icon a																{background-position: top right;}
 #mainmenu .home_icon a:hover														{background-position: bottom left;}
 #mainmenu .contact_icon a:hover													{background-position: bottom right;}
@@ -48,7 +48,7 @@ ul#mainmenu, #mainmenu .contact_icon .circle_effect{
 
 /*Search Bar*/
 .search_bar input[type="text"]					{color: #666;}
-.search_bar input[type="submit"]				{background: url('../images/icons/search_icon.png') no-repeat 5px 15px #c78a9e;}
+.search_bar input[type="submit"]				{background: url('/assets/images/icons/search_icon.png') no-repeat 5px 15px #c78a9e;}
 .search_bar input[type="submit"]:hover	{background-color: #444;}
 
 /*Header Text*/
@@ -74,7 +74,7 @@ ul.sidebar_cat li a:hover													{color: #c9577d;}
 .divider_page a:hover		{color: #c9577d;}
 
 /*Divider Navi*/
-.heading_button .prev_button, .heading_button .next_button						{background: url('../images/icons/camera_slider_icons.png') no-repeat 4px 2px #505050;}
+.heading_button .prev_button, .heading_button .next_button						{background: url('/assets/images/icons/camera_slider_icons.png') no-repeat 4px 2px #505050;}
 .heading_button .prev_button:hover, .heading_button .next_button:hover		{background-color: #c9577d;}
 .heading_button .next_button																	{background-position: -23px 2px;}
 
@@ -84,7 +84,7 @@ ul.sidebar_cat li a:hover													{color: #c9577d;}
 
 /*Page404*/
 .heading_404	{text-shadow: 1px 1px #fff, 4px -4px #d3d3d3; color: #4e4e4e;}
-.search_btn			{background: none; background: url('../images/icons/search.png') no-repeat 8px 8px #c78a9e;}
+.search_btn			{background: none; background: url('/assets/images/icons/search.png') no-repeat 8px 8px #c78a9e;}
 .search_btn:hover	{background-color: #444;}
 
 /*Timer*/
@@ -118,7 +118,7 @@ input[name="filter_key"]					{color: #666;}
 ul.page_navigation li a																							{color: #fff;background-color: #505050;}
 ul.page_navigation li a:hover, ul.page_navigation li a.active										{background-color: #c9577d;}
 ul.page_navigation li a.more_page																		{background-color: #fff;color: #505050;}
-ul.page_navigation li a.next_page, ul.page_navigation li a.prev_page						{background: url('../images/icons/camera_slider_icons.png') no-repeat 7px 5px #505050;}
+ul.page_navigation li a.next_page, ul.page_navigation li a.prev_page						{background: url('/assets/images/icons/camera_slider_icons.png') no-repeat 7px 5px #505050;}
 ul.page_navigation li a.next_page:hover, ul.page_navigation li a.prev_page:hover		{background-color: #c9577d;}
 ul.page_navigation li a.passive, ul.page_navigation li a.passive:hover						{background-color: #999;}
 
@@ -194,7 +194,7 @@ ul.pricing_features li										{background-color: #fff;}
 /* Footer
 --------------*/
 #footer								{background-color: #e7e7e7;}
-#footer .back_top				{background:url('../images/icons/back_top.png') no-repeat 12px 20px #fff;}
+#footer .back_top				{background:url('/assets/images/icons/back_top.png') no-repeat 12px 20px #fff;}
 h3 .first-word						{ color:#C9577D; }
 .footer_bottom					{background-color: #fff;}
 #footer .footer_text			{color: #999;}

@@ -1,0 +1,154 @@
+<!-- features boxes -->
+<div class="grid_12">
+	<div class="divider_page"><h2><%=t :accueil_fonctionnalites_titre %></h2></div>
+	<div class="grid_3 alpha">
+		<!-- a feature box -->
+		<div class="feature_box">
+			<div class="feature_icon"><%= link_to "", functionalities_payment_gateway_path, :class => "ecommerce_icons32 icon32_1" %></div>
+			<div class="feature_content">
+				<div class="feature_heading">
+					<div class="medium"><%=t :fonctionnalite1_titre1 %></div>
+					<div class="large"><%=t :fonctionnalite1_titre2 %></div>
+				</div>
+				<p class="feature_desc">
+				  <%=t :fonctionnalite1_contenu %> 
+			  </p>
+			</div>
+			<div class="feature_link"><%= link_to "", functionalities_payment_gateway_path, :class => "arrows_icons16 icon16_5 tooltip_s", :title => (t :home_intro_text_more) %></div>
+		</div>
+		<!-- a feature box end -->
+	</div>
+	<div class="grid_3 lambda">
+		<!-- a feature box -->
+		<div class="feature_box">
+			<div class="feature_icon"><%= link_to "", functionalities_compenses_automatisees_path, :class => "timedate_icons32 icon32_6"%></div>
+			<div class="feature_content">
+				<div class="feature_heading">
+					<div class="medium"><%=t :fonctionnalite2_titre1 %></div>
+					<div class="large"><%=t :fonctionnalite2_titre2 %></div>
+				</div>
+				<p class="feature_desc">
+				  <%=t :fonctionnalite2_contenu %>
+				</p>
+			</div>
+			<div class="feature_link"><%= link_to "", functionalities_compenses_automatisees_path, :class => "arrows_icons16 icon16_5 tooltip_s", :title => (t :home_intro_text_more) %></div>
+		</div>
+		<!-- a feature box end -->
+	</div>
+	<div class="grid_3 lambda">
+		<!-- a feature box -->
+		<div class="feature_box">
+			<div class="feature_icon"><%= link_to "", functionalities_moyens_de_paiement_path, :class => "timedate_icons32 icon32_6"%></div>
+			<div class="feature_content">
+				<div class="feature_heading">
+					<div class="medium"><%=t :fonctionnalite3_titre1 %></div>
+					<div class="large"><%=t :fonctionnalite3_titre2 %></div>
+				</div>
+				<p class="feature_desc">
+				  <%=t :fonctionnalite3_contenu %>
+				</p>
+			</div>
+			<div class="feature_link"><%= link_to "", functionalities_moyens_de_paiement_path, :class => "arrows_icons16 icon16_5 tooltip_s", :title => (t :home_intro_text_more) %></div>
+		</div>
+		<!-- a feature box end -->
+	</div>
+	<div class="grid_3 omega">
+		<!-- a feature box -->
+		<div class="feature_box">
+			<div class="feature_icon"><%= link_to "", functionalities_disponibilite_path, :class => "timedate_icons32 icon32_6"%></div>
+			<div class="feature_content">
+				<div class="feature_heading">
+					<div class="medium"><%=t :fonctionnalite4_titre1 %></div>
+					<div class="large"><%=t :fonctionnalite4_titre2 %></div>
+				</div>
+				<p class="feature_desc">
+				  <%=t :fonctionnalite4_contenu %>
+				</p>
+			</div>
+			<div class="feature_link"><%= link_to "", functionalities_disponibilite_path, :class => "arrows_icons16 icon16_5 tooltip_s", :title => (t :home_intro_text_more) %></div>
+		</div>
+		<!-- a feature box end -->
+	</div>
+</div>
+<!-- features boxes end -->
+<div class="clearfix"></div>
+<!-- popular blog post and testiomonials -->
+<div class="grid_12">
+	<!-- popular blog post -->
+	<div class="grid_8 alpha">
+		<div class="divider_page"><h2><%=t :home_actualites_header %></h2></div>
+		<!-- a post image -->
+		<div class="grid_4 alpha a_blogpost popular">
+			<div class="image">
+	    	<div class="normal">
+	    		<img src="/assets/images/mix/940/tourist.jpg" alt="" class="grid_image"/>
+	    	</div>
+	    	<div class="hover">
+	    		<div class="post_links">
+	    			<div><a href="/assets/images/mix/940/tourist.jpg" data-rel="prettyPhoto" class="misc_white_icons16 icon16_15" title="Big Size"></a></div>
+	    			<div><a href="blog_single_post.html" class="misc_white_icons16 icon16_67" title="Read More"></a></div>
+	    		</div>
+	    		<div class="clearfix"></div>
+	    		<!-- social links -->
+	    		<div class="social_links">
+	    			<div class="share_text"><%=t :home_actualites_share_on %></div>
+	    			<div class="share_icons">
+	    				<a href="#" target="_blank" class="social_colored twitter tooltip_s" title="Twitter"></a>
+	    				<a href="#" target="_blank" class="social_colored facebook tooltip_s" title="Facebook"></a>
+	    				<a href="#" target="_blank" class="social_colored linkedin tooltip_s" title="LinkedIn"></a>
+	    				<a href="mailto:?subject=<%=t :home_actualites_share_on %>;body=" class="social_colored mail tooltip_s" title="Mail"></a>
+	    			</div>
+	    		</div>
+	    		<!-- social links end -->
+	    	</div>
+	    </div>
+		</div>
+		<!-- a post image end -->
+		<!-- post details -->
+		<div class="grid_4 omega">
+			<!-- post heading -->
+			<h3 class="pp_heading"><a href="#"><%=t :home_actualites_titre %></a></h3>
+			<!-- post heading end -->
+			<!-- post meta info -->
+	    	<div class="meta-info">
+					<div class="date-info"><%=t :home_actualites_date %></div>
+			</div>
+	    	<!-- post meta info end -->
+	    	<!-- post content -->
+	    	<p><%=t :home_actualites_contenu %></p>
+	    	<p><a href="#" class="sc_button medium"><%=t :home_intro_text_more %></a></p>
+	    	<!-- post content end -->
+		</div>
+		<!-- post details end -->
+	</div>
+	<!-- popular blog post end -->
+	<!-- testimonials -->
+	<div class="grid_4 omega">
+		<div class="divider_page">
+			<h2><%=t :home_informations_titre %></h2>
+			<div class="heading_button">
+				<div class="prev_button" id="testimonials_prev">Prev</div>
+				<div class="next_button" id="testimonials_next">Next</div>
+			</div>
+		</div>
+		<div class="testimonials">
+			<!-- a testimonial -->
+			<div class="testimonial">
+				<div class="desc"><%=t :home_informations_1 %></div>
+			</div>
+			<!-- a testimonial end -->
+			<!-- a testimonial -->
+			<div class="testimonial">
+				<div class="desc"><%=t :home_informations_2 %></div>
+			</div>
+			<!-- a testimonial end -->
+			<!-- a testimonial -->
+			<div class="testimonial">
+				<div class="desc"><%=t :home_informations_3 %></div>
+			</div>
+			<!-- a testimonial end -->
+		</div>
+	</div>
+	<!-- testimonials end -->
+</div>
+<!-- popular blog post and testiomonials end -->

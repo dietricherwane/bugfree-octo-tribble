@@ -275,6 +275,17 @@ ul.sidebar_cat li a															{text-decoration: none;}
 .our_clients .a_client.ekiosk			{width: 223px; background: url('../images/mix/paymoney/ekiosk.png') no-repeat;}
 .our_clients .a_client.wimboo			{width: 223px; background: url('../images/mix/paymoney/wimboo.png') no-repeat;}
 
+.our_clients .a_client.mtn			{width: 223px; background: url('../images/mix/wallets/mtn.png') no-repeat;height: 76px;}
+.our_clients .a_client.orange			{width: 223px; background: url('../images/mix/wallets/orange.png') no-repeat;height: 76px;}
+.our_clients .a_client.flooz			{width: 223px; background: url('../images/mix/wallets/flooz.png') no-repeat;height: 76px;}
+.our_clients .a_client.paypal			{width: 223px; background: url('../images/mix/wallets/paypal.png') no-repeat;height: 76px;}
+
+.our_clients .a_client.uba			{width: 223px; background: url('../images/mix/banques/uba.png') no-repeat;height: 76px;}
+.our_clients .a_client.biao			{width: 223px; background: url('../images/mix/banques/biao.png') no-repeat;height: 76px;}
+.our_clients .a_client.bicici			{width: 223px; background: url('../images/mix/banques/bicici.png') no-repeat;height: 76px;}
+.our_clients .a_client.boa			{width: 223px; background: url('../images/mix/banques/boa.png') no-repeat;height: 76px;}
+.our_clients .a_client.ecobank			{width: 223px; background: url('../images/mix/banques/ecobank.png') no-repeat;height: 76px;}
+
 .our_clients .a_client.ocean3d			{width: 130px; background: url('../images/mix/envato/3docean.png') no-repeat;}
 .our_clients .a_client.activeden			{width: 140px; background: url('../images/mix/envato/activeden.png') no-repeat;}
 .our_clients .a_client.audiojungle		{width: 155px; background: url('../images/mix/envato/audiojungle.png') no-repeat;}
@@ -574,7 +585,7 @@ body {min-width: 960px;}
 #logo img				{
                  position:relative;
                  max-width: 300px;
-                 right: 47.5%;
+                 right: 10%;
                  /*left: 20px;*/
                 
                 }
@@ -594,7 +605,7 @@ ul#flickrfeed li:nth-child(3n)			{padding-right: 0;}
 
 /* Pricing Tables*/
 .pricing_tables .grid_3{margin-left: 0; margin-right: 1px; width: 234px;}
-/*Theme Config*/
+/*Theme Config
 .theme_config{
 	display: block;
 	position: fixed; 
@@ -630,7 +641,7 @@ ul#flickrfeed li:nth-child(3n)			{padding-right: 0;}
 	-webkit-box-shadow: 0 2px 7px 2px rgba(0,0,0,0.1);
 	-moz-box-shadow: 0 2px 7px 2px rgba(0,0,0,0.1);
 	box-shadow: 0 2px 7px 2px rgba(0,0,0,0.1);
-}
+}*/
 .config_content h4,.config_content h6{
 	text-align: center;
 	padding: 8px 0;

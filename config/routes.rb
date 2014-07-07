@@ -10,6 +10,8 @@ HubsFrontOffice::Application.routes.draw do
     get "/fonctionnalites-compenses-automatisees" => "welcome#functionalities_compenses_automatisees", as: :functionalities_compenses_automatisees
     get "/fonctionnalites-moyens-de-paiement" => "welcome#functionalities_moyens_de_paiement", as: :functionalities_moyens_de_paiement
     get "/fonctionnalites-disponibilite-24-7" => "welcome#functionalities_disponibilite", as: :functionalities_disponibilite
+    get "/nos-moyens-de-paiement" => "welcome#nos_moyens_de_paiement", as: :nos_moyens_de_paiement
+    get "/banques-partenaires" => "welcome#banques_partenaires", as: :banques_partenaires
     get "/nous-contacter" => "welcome#nous_contacter", as: :contact_us
   end
   # The priority is based upon order of creation: first created -> highest priority.

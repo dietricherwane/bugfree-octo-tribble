@@ -4,11 +4,11 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-<meta name="author" content="DesignForLife" />
-<meta name="description" content="A Multi Purpose Responsive Template - Created by DesignForLife" />
+<meta name="author" content="" />
+<meta name="description" content="" />
 <title><%= @title %></title>
 <%#= stylesheet_link_tag "style", media: "all", "data-turbolinks-track" => true %>
-<link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="http://37.59.18.41:7080/assets/css/style.css" />
 <!--[if lte IE 8]>
 	<link rel="stylesheet" type="text/css" href="assets/css/ie8.css" />
 <![endif]-->
@@ -22,13 +22,13 @@
 	<!-- menu -->
 	<div id="header">
 		<!-- logo -->
-		<div id="logo"><a href="index-2.html"><img src="/assets/images/logo.png" alt="logo" /></a></div>
+		<div id="logo"><a href="index-2.html"><img src="http://37.59.18.41:7080/assets/images/logo.png" alt="logo" /></a></div>
 		<!-- logo end -->
 		<!-- main menu -->
 		<ul id="mainmenu">
 	    <li><%= link_to "Accueil", home_path, :class => @home_active %></li>
-	    <li><%= link_to "Nos moyens de paiement", "#", :class => @moyens_de_paiement_active %></li>		    
-	    <li><%= link_to "Banques partenaires", "#", :class => @banques_partenaires_active %></li>
+	    <li><%= link_to "Nos moyens de paiement", nos_moyens_de_paiement_path, :class => @moyens_de_paiement_active %></li>		    
+	    <li><%= link_to "Banques partenaires", banques_partenaires_path, :class => @banques_partenaires_active %></li>
 	    <li><%= link_to "Nous contacter", contact_us_path, :class => @nous_contacter_active %></li>    
 		</ul>
 		<!-- main menu end -->
@@ -36,27 +36,22 @@
 	<!-- menu end -->
 	<!-- slider -->
 	<div class="camera_wrap" id="cameraSlider">
-        <div data-thumb="/assets/images/mix/80/writingidea.jpg" data-src="/assets/images/mix/940/writingidea.jpg">
-        	<div class="camera_desc pink heading fadeIn camera_effected" style="bottom:190px;left:80px;">DreamLife Responsive Template</div>
-        	<div class="camera_desc black fadeIn camera_effected" style="bottom:140px;left:80px;">Choose the best option for your personal or business website. Of course DreamLife!</div>
-        </div>
-    	<div data-thumb="/assets/images/mix/80/vogue.jpg" data-src="/assets/images/mix/940/vogue.jpg">
-    		<div class="camera_desc green heading fadeIn camera_effected" style="bottom:190px;right:80px;">Creative Design</div>
-        	<div class="camera_desc black fadeIn camera_effected" style="bottom:140px;right:80px;">DreamLife is incredibly responsive, with a refreshingly clean design</div>
-    	</div>
-    	<div data-thumb="/assets/images/mix/80/urbanstyle.jpg" data-src="/assets/images/mix/940/urbanstyle.jpg"></div>
-    	<div data-thumb="/assets/images/mix/80/tourist.jpg" data-src="/assets/images/mix/940/tourist.jpg">
-    		<div class="camera_desc blue heading fadeIn camera_effected" style="bottom:230px;left:50%;margin-left:-95px;">Enjoy the Landscape!</div>
-        	<div class="camera_desc black fadeIn camera_effected" style="bottom:200px;left:50%;margin-left:-145px; max-width:290px;">with the many features different from each other.</div>
-    	</div>
-    	<div data-thumb="/assets/images/mix/80/childalone.jpg" data-src="/assets/images/mix/940/childalone.jpg">
-    		<div class="camera_desc orange heading fadeIn camera_effected" style="bottom:230px;left:180px;">Be any different!</div>
-        	<div class="camera_desc black fadeIn camera_effected" style="bottom:200px;left:180px;">with the beautiful colors...</div>
-    	</div>
-    	<div data-thumb="/assets/images/mix/80/digitalcreativity.jpg" data-src="/assets/images/mix/940/digitalcreativity.jpg">
-    		<div class="camera_desc blue heading fadeIn camera_effected" style="bottom:230px;left:180px;">Have you any idea?</div>
-        	<div class="camera_desc black fadeIn camera_effected" style="bottom:200px;left:180px;">Your design dreams come true here!</div>
-    	</div>
+      <div data-thumb="http://37.59.18.41:7080/assets/images/mix/80/writingidea.jpg" data-src="http://37.59.18.41:7080/assets/images/mix/940/writingidea.jpg">
+      	<div class="camera_desc pink heading fadeIn camera_effected" style="bottom:190px;left:80px;">
+      	  Innovation
+      	</div>
+      	<div class="camera_desc black fadeIn camera_effected" style="bottom:140px;left:80px;">
+      	  Pour vous simplifier la vie!
+      	</div>
+      </div>
+    	<div data-thumb="http://37.59.18.41:7080/assets/images/mix/80/vogue.jpg" data-src="http://37.59.18.41:7080/assets/images/mix/940/vogue.jpg">
+    		<div class="camera_desc green heading fadeIn camera_effected" style="bottom:190px;right:80px;">
+    		  Faites nous confiance
+    		</div>
+      	<div class="camera_desc black fadeIn camera_effected" style="bottom:140px;right:80px;">
+      	  Nous sécurisons votre monde!
+      	</div>
+    	</div>    	
     </div>
 	<!-- slider end -->
 	</div>
@@ -85,6 +80,14 @@
   
   <% if params[:controller] == "welcome" and params[:action] == "functionalities_disponibilite" %>
     <%= render "functionalities_disponibilite" %>
+  <% end %>
+  
+  <% if params[:controller] == "welcome" and params[:action] == "nos_moyens_de_paiement" %>
+    <%= render "nos_moyens_de_paiement" %>
+  <% end %>
+  
+  <% if params[:controller] == "welcome" and params[:action] == "banques_partenaires" %>
+    <%= render "banques_partenaires" %>
   <% end %>
     
 	<!-- container 12 -->

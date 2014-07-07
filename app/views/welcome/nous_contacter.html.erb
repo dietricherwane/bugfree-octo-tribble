@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <!-- Mirrored from dreamlife.designforlifeden.com/contact.html by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 13 May 2014 14:31:24 GMT -->
 <head>
@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
 <meta name="author" content="DesignForLife" />
 <meta name="description" content="A Multi Purpose Responsive Template - Created by DesignForLife" />
-<title>DreamLife Responsive Multi-Purpose Template</title>
-<link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+<title><%= @title %></title>
+<link rel="stylesheet" type="text/css" href="http://37.59.18.41:7080/assets/css/style.css" />
 <!--[if lte IE 8]>
 	<link rel="stylesheet" type="text/css" href="assets/css/ie8.css" />
 <![endif]-->
@@ -21,14 +21,14 @@
 	<!-- menu -->
 	<div id="header">
 		<!-- logo -->
-		<div id="logo"><a href="index-2.html"><img src="/assets/images/logo.png" alt="logo" /></a></div>
+		<div id="logo"><a href="index-2.html"><img src="http://37.59.18.41:7080/assets/images/logo.png" alt="logo" /></a></div>
 		<!-- logo end -->
 		<!-- main menu -->
 		<ul id="mainmenu">
 		  <li><%= link_to "Accueil", home_path, :class => @home_active %></li>
-	    <li><%= link_to "Nos moyens de paiement", "#", :class => @moyens_de_paiement_active %></li>		    
-	    <li><%= link_to "Banques partenaires", "#", :class => @banques_partenaires_active %></li>
-	    <li><%= link_to "Nous contacter", contact_us_path, :class => @nous_contacter_active %></li>   
+	    <li><%= link_to "Nos moyens de paiement", nos_moyens_de_paiement_path, :class => @moyens_de_paiement_active %></li>		    
+	    <li><%= link_to "Banques partenaires", banques_partenaires_path, :class => @banques_partenaires_active %></li>
+	    <li><%= link_to "Nous contacter", contact_us_path, :class => @nous_contacter_active %></li> 
 		</ul>
 		<!-- main menu end -->
 	</div>
@@ -127,13 +127,15 @@
 	<!-- footer end -->
 </div>
 <!-- container full end -->
-<script src="/assets/js/jquery-1.9.0.min.js" type="text/javascript"></script>
-<script src="/assets/js/jquery.components.js" type="text/javascript"></script>
-<script src="/assets/js/custom.js" type="text/javascript"></script>
+<script src="http://37.59.18.41:7080/assets/js/jquery-1.9.0.min.js" type="text/javascript"></script>
+<script src="http://37.59.18.41:7080/assets/js/jquery.components.js" type="text/javascript"></script>
+
+<script src="http://37.59.18.41:7080/assets/js/custom.js" type="text/javascript"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
 <script type="text/javascript">
 function initialize() {
-  var myLatlng = new google.maps.LatLng(40.714353,-74.005973);
+  var myLatlng = new google.maps.LatLng(5.320350, -4.013219);
   var mapOptions = {
     zoom: 12,
     center: myLatlng,

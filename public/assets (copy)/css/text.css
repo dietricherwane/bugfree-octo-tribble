@@ -14,11 +14,11 @@ body {
 
 @font-face {
     font-family: 'QlassikMediumRegular';
-    src: url('http://pay-money.net:7080/assets/css/font/font/Qlassik_TB-webfont.eot');
-    src: url('http://pay-money.net:7080/assets/css/font/font/Qlassik_TB-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://pay-money.net:7080/assets/css/font/font/Qlassik_TB-webfont.woff') format('woff'),
-         url('http://pay-money.net:7080/assets/css/font/font/Qlassik_TB-webfont.ttf') format('truetype'),
-         url('http://pay-money.net:7080/assets/css/font/font/Qlassik_TB-webfont.svg#QlassikMediumRegular') format('svg');
+    src: url('font/Qlassik_TB-webfont.eot');
+    src: url('font/Qlassik_TB-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Qlassik_TB-webfont.woff') format('woff'),
+         url('font/Qlassik_TB-webfont.ttf') format('truetype'),
+         url('font/Qlassik_TB-webfont.svg#QlassikMediumRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -26,11 +26,11 @@ body {
 
 @font-face {
     font-family: 'QlassikBoldRegular';
-    src: url('http://pay-money.net:7080/assets/css/font/font/QlassikBold_TB-webfont.eot');
-    src: url('http://pay-money.net:7080/assets/css/font/font/QlassikBold_TB-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://pay-money.net:7080/assets/css/font/font/QlassikBold_TB-webfont.woff') format('woff'),
-         url('http://pay-money.net:7080/assets/css/font/font/QlassikBold_TB-webfont.ttf') format('truetype'),
-         url('http://pay-money.net:7080/assets/css/font/font/QlassikBold_TB-webfont.svg#QlassikBoldRegular') format('svg');
+    src: url('font/QlassikBold_TB-webfont.eot');
+    src: url('font/QlassikBold_TB-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/QlassikBold_TB-webfont.woff') format('woff'),
+         url('font/QlassikBold_TB-webfont.ttf') format('truetype'),
+         url('font/QlassikBold_TB-webfont.svg#QlassikBoldRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 

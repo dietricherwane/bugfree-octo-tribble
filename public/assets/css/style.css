@@ -576,7 +576,7 @@ body {min-width: 960px;}
                    /*padding: 15px 10px; */
                    position: relative;
                    z-index:100;
-                   max-width: 300px;
+                   max-width: 250px;
                    /*margin-right: 50px;*/
                    /*right: 40%;*/
                   }
@@ -589,9 +589,9 @@ body {min-width: 960px;}
                    
 #logo img				{
                  position:relative;
-                 max-width: 300px;
-                 right: 10%;
-                 /*left: 20px;*/
+                 max-width: 250px;
+                 right: 1%;
+                 left: 20px;
                 
                 }
 

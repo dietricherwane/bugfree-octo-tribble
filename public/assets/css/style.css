@@ -576,8 +576,9 @@ body {min-width: 960px;}
                    /*padding: 15px 10px; */
                    position: relative;
                    z-index:100;
-                   max-width: 250px;
-                   /*margin-right: 50px;*/
+                   /*max-width: 250px;*/
+                   max-width: 100%;
+                   right: 3.05%;
                    /*right: 40%;*/
                   }
 /*#header #logo			{padding: 15px 10px; 
@@ -589,9 +590,10 @@ body {min-width: 960px;}
                    
 #logo img				{
                  position:relative;
-                 max-width: 250px;
-                 right: 1%;
-                 left: 20px;
+                 /*max-width: 250px;*/
+                 /*max-width: 100%;
+                 right: 1%;*/
+                 /*left: 20px;*/
                 
                 }
 

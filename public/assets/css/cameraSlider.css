@@ -96,13 +96,13 @@
 	z-index: 2;
 }
 .camera_target_content .camera_link {
-    background: url(http://37.59.18.41:7080/assets/images/cameraSlider/blank.gif);
+    background: url(http://195.14.0.133/assets/images/cameraSlider/blank.gif);
 	display: block;
 	height: 100%;
 	text-decoration: none;
 }
 .camera_loader {
-    background: url(http://37.59.18.41:7080/assets/images/cameraSlider/camera-loader.gif) no-repeat center;
+    background: url(http://195.14.0.133/assets/images/cameraSlider/camera-loader.gif) no-repeat center;
 	-webkit-border-radius: 18px;
 	-moz-border-radius: 18px;
 	border-radius: 18px;
@@ -294,7 +294,7 @@
     -moz-border-radius: 0 36px 36px 0;
 }
 .camera_prev > span {
-	background: url(http://37.59.18.41:7080/assets/images/icons/camera_slider_icons.png) no-repeat 2px 9px; 
+	background: url(http://195.14.0.133/assets/images/icons/camera_slider_icons.png) no-repeat 2px 9px; 
 	display: block;
 	height: 32px;
 	width: 16px;
@@ -312,7 +312,7 @@
     -webkit-border-radius: 36px 0 0 36px;
 }
 .camera_next > span {
-	background: url(http://37.59.18.41:7080/assets/images/icons/camera_slider_icons.png) no-repeat -23px 9px;
+	background: url(http://195.14.0.133/assets/images/icons/camera_slider_icons.png) no-repeat -23px 9px;
 	display: block;
 	height: 32px;
 	width: 16px;
@@ -341,13 +341,13 @@
 	bottom: -10px;
 }
 .camera_commands > .camera_play {
-	background: url(http://37.59.18.41:7080/assets/images/icons/camera_slider_icons.png) no-repeat -76px 2px;
+	background: url(http://195.14.0.133/assets/images/icons/camera_slider_icons.png) no-repeat -76px 2px;
 	height: 20px;
 	width: 20px;
 	background-color: #505050;
 }
 .camera_commands > .camera_stop {
-	background: url(http://37.59.18.41:7080/assets/images/icons/camera_slider_icons.png) no-repeat -49px 2px;
+	background: url(http://195.14.0.133/assets/images/icons/camera_slider_icons.png) no-repeat -49px 2px;
 	display: block;
 	height: 20px;
 	width: 20px;
@@ -428,34 +428,34 @@
 *
 **************************/
 .pattern_1 .camera_overlayer {
-	background: url(http://37.59.18.41:7080/assets/images/cameraSlider/patterns/overlay1.png) repeat;
+	background: url(http://195.14.0.133/assets/images/cameraSlider/patterns/overlay1.png) repeat;
 }
 .pattern_2 .camera_overlayer {
-	background: url(http://37.59.18.41:7080/assets/images/cameraSlider/patterns/overlay2.png) repeat;
+	background: url(http://195.14.0.133/assets/images/cameraSlider/patterns/overlay2.png) repeat;
 }
 .pattern_3 .camera_overlayer {
-	background: url(http://37.59.18.41:7080/assets/images/cameraSlider/patterns/overlay3.png) repeat;
+	background: url(http://195.14.0.133/assets/images/cameraSlider/patterns/overlay3.png) repeat;
 }
 .pattern_4 .camera_overlayer {
-	background: url(http://37.59.18.41:7080/assets/images/cameraSlider/patterns/overlay4.png) repeat;
+	background: url(http://195.14.0.133/assets/images/cameraSlider/patterns/overlay4.png) repeat;
 }
 .pattern_5 .camera_overlayer {
-	background: url(http://37.59.18.41:7080/assets/images/cameraSlider/patterns/overlay5.png) repeat;
+	background: url(http://195.14.0.133/assets/images/cameraSlider/patterns/overlay5.png) repeat;
 }
 .pattern_6 .camera_overlayer {
-	background: url(http://37.59.18.41:7080/assets/images/cameraSlider/patterns/overlay6.png) repeat;
+	background: url(http://195.14.0.133/assets/images/cameraSlider/patterns/overlay6.png) repeat;
 }
 .pattern_7 .camera_overlayer {
-	background: url(http://37.59.18.41:7080/assets/images/cameraSlider/patterns/overlay7.png) repeat;
+	background: url(http://195.14.0.133/assets/images/cameraSlider/patterns/overlay7.png) repeat;
 }
 .pattern_8 .camera_overlayer {
-	background: url(http://37.59.18.41:7080/assets/images/cameraSlider/patterns/overlay8.png) repeat;
+	background: url(http://195.14.0.133/assets/images/cameraSlider/patterns/overlay8.png) repeat;
 }
 .pattern_9 .camera_overlayer {
-	background: url(http://37.59.18.41:7080/assets/images/cameraSlider/patterns/overlay9.png) repeat;
+	background: url(http://195.14.0.133/assets/images/cameraSlider/patterns/overlay9.png) repeat;
 }
 .pattern_10 .camera_overlayer {
-	background: url(http://37.59.18.41:7080/assets/images/cameraSlider/patterns/overlay10.png) repeat;
+	background: url(http://195.14.0.133/assets/images/cameraSlider/patterns/overlay10.png) repeat;
 }
 .camera_caption {
 	color: #fff;
@@ -483,7 +483,7 @@
     border-top-color: #e6e6e6;
 }
 .camera_prevThumbs, .camera_nextThumbs, .camera_thumbs_cont {
-	background: url('http://37.59.18.41:7080/assets/images/pattern/header_pattern2.png');
+	background: url('http://195.14.0.133/assets/images/pattern/header_pattern2.png');
 }
 .camera_wrap .camera_pag .camera_pag_ul li {
 	background: #505050;
